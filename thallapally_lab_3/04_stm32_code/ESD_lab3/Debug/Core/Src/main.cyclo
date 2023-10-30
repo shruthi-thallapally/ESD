@@ -1,0 +1,6 @@
+../Core/Src/main.c:66:5:main	1
+../Core/Src/main.c:116:6:SystemClock_Config	3
+../Core/Src/main.c:163:13:MX_GPIO_Init	1
+../Core/Src/main.c:184:6:UART2_TxChar	2
+../Core/Src/main.c:194:6:UART2_RxChar	2
+../Core/Src/main.c:208:6:Error_Handler	1

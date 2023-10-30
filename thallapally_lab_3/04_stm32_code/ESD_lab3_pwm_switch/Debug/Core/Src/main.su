@@ -1,0 +1,12 @@
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Core/Src/main.c:83:5:main	16	static
+../Core/Src/main.c:154:6:SystemClock_Config	88	static
+../Core/Src/main.c:202:6:USART2_Config	4	static
+../Core/Src/main.c:222:6:UART2_TxChar	16	static
+../Core/Src/main.c:235:6:UART2_RxChar	4	static
+../Core/Src/main.c:243:6:PWM_Config	8	static
+../Core/Src/main.c:267:5:_write	32	static
+../Core/Src/main.c:277:13:TIM2_Init	8	static
+../Core/Src/main.c:294:6:TIM2_IRQHandler	8	static
+../Core/Src/main.c:325:6:EXTI0_IRQHandler	4	static
+../Core/Src/main.c:340:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,24 @@
+Name     Lab3;
+PartNo   00;
+Date     10-10-2023;
+Revision 01;
+Designer Shruthi;
+Company  University of Colorado Boulder;
+Assembly None;
+Location ;
+Device   g16v8a;
+
+
+ORDER: A15, %2, A14, %2, A13, %2, A12, %2, A11, %2, A10, %2, RD, %2, PSEN, %2, READ, %2, CE; 
+
+
+VECTORS:
+11000000**
+00000001**
+00000010**
+00000100**
+00001000**
+00010000**
+00100000**
+01000000**
+10000000**

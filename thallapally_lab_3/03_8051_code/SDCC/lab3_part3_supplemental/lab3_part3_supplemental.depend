@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1698440404 source:c:\users\91912\documents\cub assisgnments\esd\lab3_part3_supplemental\main.c
+	<stdio.h>
+	<stdlib.h>
+	<mcs51reg.h>
+	<stdint.h>
+	<mcs51/8051.h>
+	<at89c51ed2.h>
+

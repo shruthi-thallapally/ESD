@@ -1,0 +1,46 @@
+Name     Lab3 ;
+PartNo   00 ;
+Date     10-10-2023 ;
+Revision 01 ;
+Designer Shruthi ;
+Company  University of Colorado Boulder ;
+Assembly None ;
+Location  ;
+Device   g16v8a ;
+
+/* *************** INPUT PINS *********************/
+/* Pin 2 is connected to Address Line A15 */
+PIN   2  =   A15                      ; /*  Address Line A15 */ 
+/* Pin 3 is connected to Address Line A14 */
+PIN   3  =   A14                      ; /*   Address Line A14 */ 
+/* Pin 5 is connected to Address Line A13 */
+PIN   5  =   A13                      ; /*  Address Line A13  */ 
+/* Pin 6 is connected to Address Line A12 */
+PIN   6  =   A12                      ; /*  Address Line A12  */
+/* Pin 4 is connected to Address Line A11 */ 
+PIN   4  =   A11                      ; /* Address Line A11   */ 
+/* Pin 9 is connected to Address Line A10 */
+PIN   9  =   A10 			    ; /* Address Line A10   */
+/* Pin 7 is connected to the Read (RD) signal */
+PIN   7  =   RD                       ; /*    Read Signal     */ 
+/* Pin 8 is connected to the Program Store Enable (PSEN) signal */
+PIN   8  =   PSEN                     ; /* Program Store Enable Signal  */ 
+
+/* *************** OUTPUT PINS *********************/
+/* Pin 18 is connected to the Read (READ) signal */
+PIN  18   =   READ                      ; /* Read Signal (output)   */ 
+/* Pin 19 is connected to the Chip Enable (CE) signal */
+PIN  19   =   CE                        ; /* Chip Enable Signal (output)   */ 
+
+/*
+*Logic:
+*/
+/* The READ signal is the logical AND of RD and PSEN signals */
+READ = RD & PSEN; 
+/* The CE signal is generated using logic operations on the address lines A15, A14, A13, A12, A11, and A10 */
+CE = !((!A15) & (A14 # A13 # A12 # A11 # A10));
+
+
+
+
+

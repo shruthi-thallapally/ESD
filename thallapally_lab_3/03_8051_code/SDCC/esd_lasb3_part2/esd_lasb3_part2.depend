@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1697836948 source:c:\users\91912\documents\cub assisgnments\esd\esd_lasb3_part2\main.c
+	<mcs51/8051.h>
+	<at89c51ed2.h>
+	<mcs51reg.h>
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+
+1697825884 source:c:\users\91912\documents\cub assisgnments\esd\esd_lasb3_part2\_heap.c
+
